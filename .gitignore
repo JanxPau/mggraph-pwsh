@@ -1,0 +1,6 @@
+### PowerShell template
+**/test
+**/smlp-useremail
+**/logs
+**/.idea
+.DS_Store
