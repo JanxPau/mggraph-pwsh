@@ -2,7 +2,7 @@
 Connect-MgGraph -Scopes "UserAuthenticationMethod.ReadWrite.All" -NoWelcome
 
 # Import csvfiles
-$csvPath = "smlp-useremail/creative.csv"
+$csvPath = "sampleuser.csv"
 
 # Get user ID
 #$user = Get-MgUser -UserId $UserPrincipalName -ErrorAction Stop
