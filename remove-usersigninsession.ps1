@@ -1,8 +1,8 @@
 Connect-MgGraph -Scopes "User.ReadWrite.All" -NoWelcome
 
-#$userId = "Allan.Taruc@strongmind.com"
+$csvPath = "sampleuser.csv"
 
-$userlist = Import-Csv -Path "smlp-useremail/creative.csv"
+$userlist = Import-Csv -Path $csvPath
 
 foreach ($user in $userlist)
 {
