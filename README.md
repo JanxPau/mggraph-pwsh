@@ -1,5 +1,3 @@
-Here’s a `README.md` for your **mggraph-pwsh** project, structured to explain what it does, how to use it, and what each script is for:
-
 ---
 
 ````markdown
@@ -65,3 +63,5 @@ Each script will prompt for login or use your existing `Connect-MgGraph` session
 ## 🛠️ Customization
 
 Feel free to add parameters, logging to file, or integration into larger workflows (e.g., Teams notifications, CSV input, CI/CD triggers).
+
+---
