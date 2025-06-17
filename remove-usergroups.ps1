@@ -1,10 +1,10 @@
 Connect-MgGraph -Scopes "User.ReadWrite.All", "Group.ReadWrite.All" -NoWelcome
 
 # Path to the CSV file containing UserPrincipalNames
-$csvPath = "smlp-useremail/creative.csv"
+$csvPath = "sampleuser.csv"
 
 # ID of the "All User" group that should NOT be removed
-$allUserGroupId = "25567b3f-8a83-4c83-b8bc-01dfb7c3e06c"
+$allUserGroupId = "" #Add group Id
 
 # === Import the list of users from the CSV ===
 # The CSV should have a header column named 'UserPrincipalName'
