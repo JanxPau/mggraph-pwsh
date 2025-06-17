@@ -7,7 +7,7 @@ Connect-MgGraph -Scopes "User.ReadWrite.All", "Directory.ReadWrite.All" -NoWelco
 
 # Step 1: List of user UPNs (email addresses) or Azure AD User IDs to process
 #$UserList = @("Kurt.Venzon@strongmind.com")
-$CsvPath = "smlp-useremail/creative.csv"
+$CsvPath = "sampleuser.csv"
 
 $userlist = Import-Csv -Path $CsvPath | Select-Object -ExpandProperty UserPrincipalName
 # Step 2: Loop through each user in the list
